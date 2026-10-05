@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="weather-container">
+
+        <!-- Title -->
+        <h1>🌦️ Weather App</h1>
+
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="city-input"
+                placeholder="Enter city or village"
+            >
+
+            
+            
+            <button id="search-button">
+    Search
+</button>
+
+<button id="location-button">
+    📍 My Location
+</button>
+
+        </div>
+
+
+        <!-- Current Weather -->
+
+        <h2 id="city-name">
+            City
+        </h2>
+
+
+        <!-- Weather Icon -->
+
+        <div class="weather-icon" id="weather-icon">
+            ☀️
+        </div>
+
+
+        <!-- Temperature -->
+
+        <div id="temperature">
+            -- °C
+        </div>
+
+
+        <!-- Weather Condition -->
+
+        <div id="condition">
+            Weather condition
+        </div>
+
+
+        <!-- Current Weather Details -->
+
+        <div class="weather-details">
+
+            <p id="humidity">
+                💧 Humidity: --%
+            </p>
+
+            <p id="wind">
+                💨 Wind: -- km/h
+            </p>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 5 DAY FORECAST -->
+        <!-- ================================= -->
+
+        <div class="forecast-section">
+
+            <h2>📅 5-Day Forecast</h2>
+
+            <div id="forecast-container">
+
+                <!-- Forecast cards will be added by JavaScript -->
+
+            </div>
+
+        </div>
+
+
+        <!-- Weather Tips -->
+
+        <div class="weather-tips">
+
+            <h2>💡 Weather Tip</h2>
+
+            <p id="weather-tip">
+                Search a location to get weather tips.
+            </p>
+
+        </div>
+
+
+        <!-- Severe Weather Alert -->
+
+        <div class="weather-alert">
+
+            <h2>⚠️ Weather Alert</h2>
+
+            <p id="weather-alert-message">
+                No alerts available.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
